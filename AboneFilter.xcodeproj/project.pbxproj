@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		449F416E195BF2C90052B5AB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449F416D195BF2C90052B5AB /* CoreFoundation.framework */; };
+		449F4174195BF2C90052B5AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 449F4172195BF2C90052B5AB /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		449F416A195BF2C90052B5AB /* AboneFilter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboneFilter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		449F416D195BF2C90052B5AB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		449F4171195BF2C90052B5AB /* AboneFilter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AboneFilter-Info.plist"; sourceTree = "<group>"; };
+		449F4173195BF2C90052B5AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		449F4175195BF2C90052B5AB /* AboneFilter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AboneFilter-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		449F4167195BF2C90052B5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449F416E195BF2C90052B5AB /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		449F4161195BF2C90052B5AB = {
+			isa = PBXGroup;
+			children = (
+				449F416F195BF2C90052B5AB /* AboneFilter */,
+				449F416C195BF2C90052B5AB /* Frameworks */,
+				449F416B195BF2C90052B5AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		449F416B195BF2C90052B5AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				449F416A195BF2C90052B5AB /* AboneFilter.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		449F416C195BF2C90052B5AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				449F416D195BF2C90052B5AB /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		449F416F195BF2C90052B5AB /* AboneFilter */ = {
+			isa = PBXGroup;
+			children = (
+				449F4170195BF2C90052B5AB /* Supporting Files */,
+			);
+			path = AboneFilter;
+			sourceTree = "<group>";
+		};
+		449F4170195BF2C90052B5AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				449F4171195BF2C90052B5AB /* AboneFilter-Info.plist */,
+				449F4172195BF2C90052B5AB /* InfoPlist.strings */,
+				449F4175195BF2C90052B5AB /* AboneFilter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		449F4169195BF2C90052B5AB /* AboneFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449F4178195BF2C90052B5AB /* Build configuration list for PBXNativeTarget "AboneFilter" */;
+			buildPhases = (
+				449F4166195BF2C90052B5AB /* Sources */,
+				449F4167195BF2C90052B5AB /* Frameworks */,
+				449F4168195BF2C90052B5AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AboneFilter;
+			productName = AboneFilter;
+			productReference = 449F416A195BF2C90052B5AB /* AboneFilter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		449F4162195BF2C90052B5AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = masa;
+			};
+			buildConfigurationList = 449F4165195BF2C90052B5AB /* Build configuration list for PBXProject "AboneFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 449F4161195BF2C90052B5AB;
+			productRefGroup = 449F416B195BF2C90052B5AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				449F4169195BF2C90052B5AB /* AboneFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		449F4168195BF2C90052B5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449F4174195BF2C90052B5AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		449F4166195BF2C90052B5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		449F4172195BF2C90052B5AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449F4173195BF2C90052B5AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		449F4176195BF2C90052B5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		449F4177195BF2C90052B5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		449F4179195BF2C90052B5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AboneFilter/AboneFilter-Prefix.pch";
+				INFOPLIST_FILE = "AboneFilter/AboneFilter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		449F417A195BF2C90052B5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AboneFilter/AboneFilter-Prefix.pch";
+				INFOPLIST_FILE = "AboneFilter/AboneFilter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		449F4165195BF2C90052B5AB /* Build configuration list for PBXProject "AboneFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449F4176195BF2C90052B5AB /* Debug */,
+				449F4177195BF2C90052B5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449F4178195BF2C90052B5AB /* Build configuration list for PBXNativeTarget "AboneFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449F4179195BF2C90052B5AB /* Debug */,
+				449F417A195BF2C90052B5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 449F4162195BF2C90052B5AB /* Project object */;
+}
