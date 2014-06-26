@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = STAboneFilter; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {keyController = NSArrayController; preferenceView = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = STActionButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = STFilterKey; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {advancedPanelCancel = id; advancedPanelOK = id; showAdvancedPanel = id; }; 
+            CLASS = STKeySettingController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                advancedPanel = NSPanel; 
+                chainAboneBox = NSButton; 
+                inContentBox = NSButton; 
+                inIdentifierBox = NSButton; 
+                inMailBox = NSButton; 
+                inNameBox = NSButton; 
+                keyController = NSArrayController; 
+                keyField = NSTextField; 
+                prefView = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = STTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}

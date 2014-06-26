@@ -1,6 +1,6 @@
 /* Localized versions of Info.plist keys */
 
-CFBundleName = "AboneFilter";
+CFBundleName = "あぼーんフィルタ";
 CFBundleShortVersionString = "0.4";
-CFBundleGetInfoString = "AboneFilter version 0.4, Copyright (c) 2007 s-take.";
+CFBundleGetInfoString = "あぼーんフィルタ v0.4, Copyright (c) 2007 s-take.";
 NSHumanReadableCopyright = "Copyright (c) 2007 s-take.";

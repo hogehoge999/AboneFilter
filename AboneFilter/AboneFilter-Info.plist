@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPrincipalClass</key>
+	<string>STAboneFilter</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -9,7 +11,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.kanistar.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>jp.s-take.AboneFilter</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -41,6 +43,6 @@
 	<key>CFPlugInUnloadFunction</key>
 	<string></string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014年 masa. All rights reserved.</string>
+	<string>Copyright (c) 2007 s-take.</string>
 </dict>
 </plist>

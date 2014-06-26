@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "449F4169195BF2C90052B5AB"
+               BuildableName = "AboneFilter.bundle"
+               BlueprintName = "AboneFilter"
+               ReferencedContainer = "container:AboneFilter.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -23,6 +39,9 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <PathRunnable
+         FilePath = "/Users/masa/Library/Developer/Xcode/DerivedData/Thousand-dhvivlcgfhpqewhddmharbgeqgjb/Build/Products/Debug/Thousand.app">
+      </PathRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
